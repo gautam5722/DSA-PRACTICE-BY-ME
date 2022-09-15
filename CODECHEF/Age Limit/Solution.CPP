@@ -1,0 +1,24 @@
+/*
+Question :- https://www.codechef.com/submit/AGELIMIT
+Solution :-
+*/
+
+#include <iostream>
+using namespace std;
+
+int main() {
+	int t;
+	cin >> t;
+	while(t--)
+	{
+	    int x,y,a;
+	    cin >> x >> y >> a;
+	     if(x <= a && a < y)
+	     {
+	         cout << "YES" << endl;
+	     }
+	     else
+	        cout << "NO" << endl;
+	}
+	return 0;
+}
